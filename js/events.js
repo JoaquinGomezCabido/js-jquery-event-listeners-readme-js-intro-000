@@ -3,7 +3,6 @@
 var getIt = () => {
   $('p').on('click', function() {
     alert("Hey!")
-    return
   })
 }
 
@@ -11,7 +10,6 @@ var frameIt = () => {
   $('img').on('load', function() {
     $('img').addClass('tasty')
   })
-  return
 }
 
 var pressIt = () => {
@@ -19,7 +17,6 @@ var pressIt = () => {
     if(key.which == 103 || key.which == 73) {
       alert("G was pressed!")
     }
-    return
   })
 }
 
