@@ -24,6 +24,7 @@ var submitIt = () => {
   $('form').on('submit', function() {
     alert("Your form is going to be submited now.")
   })
+  return
 }
 
 $(document).ready(function(){
