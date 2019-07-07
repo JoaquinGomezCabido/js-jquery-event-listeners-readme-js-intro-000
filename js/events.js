@@ -9,7 +9,7 @@ var getIt = () => {
 
 var frameIt = () => {
   $('img').on('load', function() {
-    $('img').classList.add('tasty')
+    $('img').addClass('tasty')
   })
 }
 
